@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Coursera - CSS</title>
+	<title>Coursera - CSS1</title>
 	<style> 
 		/* Basic Styles */
 		html {
@@ -18,12 +18,9 @@
 			}
 		p { 
 			margin-top: 0; 
-			/*margin-inline-end: 20px; */
+			margin-inline-end: 20px; 
+			margin-block-end: 20;
 			text-align: justify;
-			}
-		.spacer-block { 
-			margin-top: 200; 
-			margin-top: 200; 
 			}
 		h1{
 			margin: 0; 
@@ -51,29 +48,54 @@
 			}
 		/* Button Style */
 		a.button:link, a.button:visited { 
-			margin: 20px;
 			font-weight: bold; 
 			text-decoration: none; 
-			color: #0000FF;
-			background-color: #CCCCFF;
+			color: #FF0000;
+			background-color: #FFCCCC;
 			padding: 10px;
 			border-color: #FF0000;
 			border-width: 10px;
 			}
 		a.button:hover, a.button:focus, a.button:active { 
 			text-decoration: underline; 
-			background-color: #CCCCFF;
+			background-color: #FFCCCC;
 			}
 		h2{
-			color: #6666FF;
 			margin-block-start: 0;
-			letter-spacing: 1px;
+		
 			}
+		#afl{
+			margin-top: 0; 
+			float: right;
+			clear: both;	
+			}
+		#afl ul{
+			list-style: none;
+			padding-left: 0;
+			}
+		#afl ul :nth-child(odd){
+			background-color: #CCCCCC;
+		}
+		#afl ul :nth-child(even){
+			background-color: #EEEEEE;
+		}
 	</style> 
 </head>
 <body>
-
-<H1>CSS Notes and Page Index</H1>
+<div id='afl'>
+	<h2>2022 AFL Top 8</h2>
+	<ul>
+		<li>Geelong</li>
+		<li>Melbourne</li>
+		<li>Sydney</li>
+		<li>Collingwood</li>
+		<li>Brisbane</li>
+		<li>Fremantle</li>
+		<li>Richmond</li>
+		<li>Bulldogs</li>
+	</ul>
+</div>
+<H1>CSS So Far</H1>
 
 <p>
 	HTML is all about content. CSS is all about the look and feel.  CSS provides a lot of control over style as well as page interaction.
@@ -83,14 +105,21 @@
 </p>
 
 
-<H2>Example Pages</H2>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this? And what if this paragraph runs very, very, very, very, very, very, very, very, very, very, very long?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<a class="button" href="http://www.google.com" target="blank">Open Google Search</a>
 
-<a class="button" href="CSS Basics.html">CSS Basics</a>
-<br>
-<br>
-<a class="button" href="CSS Responsive.html">CSS Responsive</a>
-
-
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
+<p>What about a paragraph after this?</p>
 
 
 </body>
