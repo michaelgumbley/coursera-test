@@ -4,26 +4,83 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <style type="text/css">
-    #top, #bottom {
-      width: 200px;
-      height: 200px;
-      background-color: maroon;
-      border: 1px solid red;
-    }
-    </style>
+
   </head>
 <body>
+  <!-- ****** PAGE HEADER ****** -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle are grouped for better mobile display -->
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-<div id="top" class="pull-left">Testing top</div>
-<div id="bottom">Testing bottom</div>
+        <!-- Nav links for the toggle button -->
+        <div id="navbar-collapse-1" class="collapse navbar-collapse" >
+          <ul id="navbar-toggle-list" class="nav navbar-nav">
+            <li><a class="visible-xs text-center" href="#section-chicken">Chicken</a></li>
+            <li><a class="visible-xs text-center" href="#section-beef">Beef</a></li>
+            <li><a class="visible-xs text-center" href="#section-sushi">Sushi</a></li>
+          </ul>
+        </div>
+        
+      </div> <!-- /.container-fluid -->
+    </nav>
+  
+  </header>
+
+
+  <!-- ****** MAIN CONTENT ****** -->
+  <div id="main-content">
+    <div class="container-fluid">
+      <h2 class="text-center">Our Menu</h2> 
+
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section id="section-chicken" class="menu-category">
+            <h3 class="text-center">Chicken</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p class="to-top visible-xs">End of section - <a href="#header-nav">back to top</a></p>
+          </section>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <section id="section-beef" class="menu-category">
+            <h3 class="text-center">Beef</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p class="to-top visible-xs">End of section - <a href="#header-nav">back to top</a></p>
+          </section>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <section  id="section-sushi" class="menu-category">
+            <h3 class="text-center">Sushi</h3> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p class="to-top visible-sm visible-xs">End of section - <a href="#header-nav">back to top</a></p>
+          </section>
+        </div>
+
+      </div> <!-- /.row -->
+
+    </div> <!-- /.container-fluid -->
+  </div> <!-- /#main content -->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js"></script>  
+
 </body>
 </html>
